@@ -1,0 +1,106 @@
+/* Estilos Básicos */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #fff8f0;
+}
+
+header {
+  background-color: #d35400;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.categoria {
+  margin-bottom: 30px;
+  background-color: #ffe3cd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.categoria h2 {
+  color: #d35400;
+  border-bottom: 2px solid #d35400;
+  padding-bottom: 5px;
+}
+
+.item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.item h3 {
+  color: #c0392b;
+  margin: 0 0 5px 0;
+}
+
+.item p {
+  margin: 0 0 5px 0;
+  color: #555;
+}
+
+.item span {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #d35400;
+  color: white;
+}
+
+/* Seção de avaliação (mantive seu código original) */
+.avaliacao {
+  width: 500px;
+  margin: 50px auto;
+  background-color: #bfbebe;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.avaliacao h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.avaliacao label,
+.avaliacao p, button {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #444;
+  font-weight: bold;
+}
